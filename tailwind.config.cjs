@@ -20,6 +20,7 @@ module.exports = {
         blue: "#282b57",
         red: "#d73b3b",
         redDark: "#c62a2a",
+        redLogo: "#850303",
         massas: "#d73b3b",
         carnes: "#30201e",
         combos: "#e6c864",

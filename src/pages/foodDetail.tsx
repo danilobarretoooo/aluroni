@@ -48,7 +48,7 @@ export default function FoodDetail() {
                       className={clsx(
                         "flex h-10 items-center justify-center rounded-sm px-8 py-3 font-bold desktop_md:text-xl",
                         {
-                          [" bg-massas text-white"]:
+                          [" bg-red text-white"]:
                             food.category.label.toLowerCase() === "massas",
                           [" bg-carnes text-white"]:
                             food.category.label.toLowerCase() === "carnes",

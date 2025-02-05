@@ -29,7 +29,7 @@ export default function home() {
             </div>
             <button
               onClick={() => handleFoodDetail(food)}
-              className="w-full cursor-pointer rounded-md border-none bg-red py-3 text-xl font-bold  text-white duration-500 ease-in-out hover:bg-redDark desktop_md:w-[300px]"
+              className="w-full cursor-pointer rounded-md border-none bg-redLogo py-3 text-xl font-bold  text-white duration-500 ease-in-out hover:bg-redDark desktop_md:w-[300px]"
             >
               Ver mais
             </button>
@@ -44,7 +44,7 @@ export default function home() {
           className="h-[300px] w-full rounded-md object-cover desktop_md:h-auto"
         />
         <address className="absolute bottom-0 left-1/2 inline-flex w-5/6 translate-y-[80%] -translate-x-1/2 justify-center rounded-md bg-dark px-7 py-5 text-center text-lg font-bold not-italic leading-10 text-white desktop_md:w-auto desktop_md:translate-y-1/2">
-          Rua Pernambuco, 3185 - Savassi <br /> Belo Horizonte - MG
+          Praça General Inocêncio Galvão, Largo Dois de Julho, 2 - de julho  <br /> Salvador - BA
         </address>
       </div>
     </section>

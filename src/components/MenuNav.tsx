@@ -1,5 +1,5 @@
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import { ReactComponent as Logo } from "assets/logo.svg";
+import Logo from "../assets/images/logo-bgRemove.png";
 import clsx from "clsx";
 import { NavLink, useLocation } from "react-router-dom";
 import Wrapper from "./Wrapper";
@@ -25,7 +25,7 @@ export default function MenuNav() {
   return (
     <Wrapper>
       <NavigationMenu.Root className="flex flex-col gap-5 py-5 tablet:flex-row tablet:gap-16">
-        <Logo />
+        <img src={Logo} alt="Logo" style={{ width: "100px", height: "auto", marginLeft: "40px" }} />
         <NavigationMenu.List className="flex h-24 items-center justify-around tablet:h-full tablet:justify-center">
           {routes.map((rota, index) => (
             <NavigationMenu.Item key={index} className="h-full list-none px-5">
@@ -37,7 +37,7 @@ export default function MenuNav() {
                 <span
                   className={clsx("duration-300 ease-in-out", {
                     ["absolute bottom-5 h-1 w-[calc(100%_-_30%)] rounded-3xl bg-red tablet:bottom-1 group-hover:desktop_lg:bg-dark"]:
-                      location === rota.to,
+                    location === rota.to,
                   })}
                 ></span>
               </NavLink>
